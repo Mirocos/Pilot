@@ -416,3 +416,5 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 
+# Clion - jetbrains like IDE build folder
+cmake-build-*

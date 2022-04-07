@@ -33,7 +33,7 @@ mkdir -p "engine/shader/generated/spv"
 
 # export PATH=/home/boomingtech/Documents/cmake-3.22.3-linux-x86_64/bin${PATH:+:${PATH}} 
 
-export CC=clang
-export CXX=clang++
+export CC=gcc-9
+export CXX=g++-9
 cmake -S engine -B build "${CMAKE_ARG_BUILD_TYPE_CONFIG}" -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
 cmake --build "${MY_DIR}/build"
